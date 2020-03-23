@@ -1,0 +1,35 @@
+.table > thead > tr > th {
+    font-size: 18px;
+    text-transform: none;
+    padding: 7px;
+    color: black;
+}
+.table > tbody > tr > td {
+    font-size: 15px;
+}
+.btn-view {
+    background-color: #63c672;
+    color: white;
+}
+.main-panel .navbar {
+    background: #76be71;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.sidebar-wrapper {
+    color: white;
+}
+.sidebar .logo,
+body > .navbar-collapse .logo {
+    border-bottom: 1px solid white;
+}
+.logo img {
+    margin: 0px;
+    height: 40px;
+}
+.sidebar .logo .simple-text,
+body > .navbar-collapse .logo .simple-text {
+    margin: 0px;
+    text-transform: none;
+}

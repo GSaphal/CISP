@@ -24,14 +24,19 @@
     <title>Admin | CISP</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" />
+
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" />
     <link href="{{asset('assets/css/light-bootstrap-dashboard.css?v=2.0.0')}}" rel="stylesheet" />
     <script src="{{asset('assets/js/core/jquery.3.2.1.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/core/popper.min.js')}}" type="text/javascript"></script>
+<link rel="stylesheet" href="{{asset('assets/font-awesome/css/font-awesome.min.css')}}">
+
 <script src="{{asset('assets/js/core/bootstrap.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/plugins/bootstrap-switch.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/light-bootstrap-dashboard.js?v=2.0.0')}}" type="text/javascript"></script>
+<link href="{{asset('css/style.css')}}" rel="stylesheet" />
+
 
 </head>
 
@@ -41,6 +46,8 @@
         <div class="main-panel">
           @include('admin.partials.navbar')  
             @yield('content')
+            @include('admin.partials.footer')  
+
         </div>
     </div>
 </body>
